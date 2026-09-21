@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "envc"
+version = "0.1.0"
+description = "open-env-commons local registry CLI — package, validate, and discover env manifests"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+authors = [{ name = "open-env-commons contributors" }]
+dependencies = [
+  "jsonschema>=4.20",
+]
+
+[project.scripts]
+envc = "envc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+envc = ["py.typed", "data/*.json"]

@@ -1,7 +1,8 @@
-> **Status:** draft — do not publish until the GitHub org (`youseftrk`) is confirmed.
+> **Status:** public early draft — live under [`youseftrk`](https://github.com/youseftrk).
 
 # Architecture — open-env-commons
 
+This is for sharing those room copies so others can find them and credit the people who made them.
 Env Commons owns the **naming, packaging, attribution, and local discovery** layer for deployment-site twins. It is open protocols and a filesystem registry — not a closed marketplace.
 
 Code: Apache-2.0. Environment data: **CC-BY-4.0** default (**CC0** allowed).

@@ -1,6 +1,8 @@
-> **Status:** draft — do not publish until the GitHub org (`youseftrk`) is confirmed.
+> **Status:** public early draft — live under [`youseftrk`](https://github.com/youseftrk).
 
 # Schemas — open-env-commons
+
+This is for how a published room copy is described so others can find and credit it.
 
 Authoritative sketch: `ENV_MANIFEST_v0.md`. Field names below are locked for public docs; do not invent alternate ids.
 
